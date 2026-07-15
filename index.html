@@ -80,6 +80,24 @@
   .course-card p{font-size:14px;color:var(--muted);margin-bottom:16px;min-height:66px;}
   .goal-pill{display:inline-block;background:#fbeee2;color:var(--accent);font-weight:700;font-size:12.5px;padding:6px 14px;border-radius:20px;}
 
+  /* Giang vien & testimonial */
+  #giang-vien{background:#fff;}
+  .teacher-grid{display:grid;grid-template-columns:repeat(auto-fit, minmax(200px,1fr));gap:22px;margin-bottom:44px;}
+  .teacher-card{text-align:center;background:var(--bg);border:1px solid var(--card-border);border-radius:14px;padding:20px 16px 24px;transition:transform .2s, box-shadow .2s;}
+  .teacher-card:hover{transform:translateY(-4px);box-shadow:0 12px 24px rgba(0,0,0,.08);}
+  .teacher-card img{width:100%;aspect-ratio:1/1.15;object-fit:cover;border-radius:10px;margin-bottom:14px;}
+  .teacher-card h3{font-size:16px;color:var(--brand-dark);margin-bottom:6px;}
+  .teacher-score{font-size:13px;color:var(--accent);font-weight:700;}
+  .testimonial-card{display:flex;align-items:center;gap:24px;background:var(--brand-dark);color:#fff;border-radius:16px;padding:28px 32px;max-width:820px;margin:0 auto;}
+  .testimonial-card img{width:96px;height:96px;border-radius:50%;object-fit:cover;flex-shrink:0;border:3px solid rgba(255,255,255,.3);}
+  .testimonial-text p{font-size:15.5px;font-style:italic;line-height:1.6;margin-bottom:10px;color:#f6dede;}
+  .testimonial-text span{font-size:13.5px;font-weight:700;color:#fff;}
+  .review-link{text-align:center;margin-top:22px;font-size:14px;color:var(--muted);}
+  .review-link a{color:var(--brand);font-weight:700;}
+  @media (max-width: 600px){
+    .testimonial-card{flex-direction:column;text-align:center;padding:26px 20px;}
+  }
+
   /* Diem khac biet */
   #noi-bat{background:#fff;}
   .diff-grid{display:grid;grid-template-columns:repeat(auto-fit, minmax(240px,1fr));gap:24px;}
@@ -223,6 +241,44 @@
         <a href="https://zalo.me/0869688153" target="_blank">Nhắn Zalo Ms. Uyên</a></p>
       </div>
     </div>
+  </div>
+</section>
+
+<section id="giang-vien">
+  <div class="container">
+    <h2 class="section-title">Đội Ngũ Giảng Viên TAEC</h2>
+    <p class="section-sub">Giảng viên điểm cao thật, kinh nghiệm thật — đồng hành cùng bạn trên hành trình chinh phục điểm số.</p>
+    <div class="teacher-grid">
+      <div class="teacher-card">
+        <img src="images/giangvien-thanh.jpg" alt="Thầy Phạm Văn Thành - giảng viên TAEC">
+        <h3>Thầy Phạm Văn Thành</h3>
+        <p class="teacher-score">PTE 90 · IELTS 8.0 · TOEIC 990</p>
+      </div>
+      <div class="teacher-card">
+        <img src="images/giangvien-baotran.jpg" alt="Cô Nguyễn Đ. Bảo Trân - giảng viên TAEC">
+        <h3>Cô Nguyễn Đ. Bảo Trân</h3>
+        <p class="teacher-score">IELTS 8.5</p>
+      </div>
+      <div class="teacher-card">
+        <img src="images/giangvien-hien.jpg" alt="Thầy Lê Đức Hiển - giảng viên TAEC">
+        <h3>Thầy Lê Đức Hiển</h3>
+        <p class="teacher-score">IELTS 8.5</p>
+      </div>
+      <div class="teacher-card">
+        <img src="images/giangvien-linh.jpg" alt="Thầy Nguyễn Khánh Lĩnh - giảng viên TAEC">
+        <h3>Thầy Nguyễn Khánh Lĩnh</h3>
+        <p class="teacher-score">IELTS 8.0 · TOEIC 975</p>
+      </div>
+    </div>
+
+    <div class="testimonial-card">
+      <img src="images/founder-tuananh.jpg" alt="Founder & CEO TAEC">
+      <div class="testimonial-text">
+        <p>"Học viên đến với TAEC sẽ được chăm sóc và hỗ trợ tối đa mọi lúc mọi nơi nhằm giúp các bạn đạt được kết quả như mong muốn trong thời gian nhanh nhất và học phí tốt nhất!"</p>
+        <span>— Mr Tuấn Anh, Founder &amp; CEO</span>
+      </div>
+    </div>
+    <p class="review-link">Xem thêm rì-viu học viên điểm cao tại <a href="https://www.facebook.com/hashtag/h%E1%BB%8Dcvi%C3%AAn%C4%91i%E1%BB%83mcao/" target="_blank">Facebook TAEC</a>.</p>
   </div>
 </section>
 
